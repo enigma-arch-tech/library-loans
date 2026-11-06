@@ -1,0 +1,8 @@
+# Store text files with LF in the repository, regardless of the author's OS.
+* text=auto eol=lf
+
+# Binary assets (add screenshots here when you take them for the report)
+*.png binary
+*.jpg binary
+*.gif binary
+*.mp4 binary
