@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "books": [
+    {
+      "isbn": "9780132350884",
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "year": 2008,
+      "on_loan": false
+    },
+    {
+      "isbn": "9780134685991",
+      "title": "Effective Java",
+      "author": "Joshua Bloch",
+      "year": 2018,
+      "on_loan": false
+    },
+    {
+      "isbn": "9780262033848",
+      "title": "Introduction to Algorithms",
+      "author": "Thomas H. Cormen",
+      "year": 2009,
+      "on_loan": false
+    },
+    {
+      "isbn": "9780596007126",
+      "title": "Head First Design Patterns",
+      "author": "Eric Freeman",
+      "year": 2004,
+      "on_loan": false
+    },
+    {
+      "isbn": "9780201633610",
+      "title": "Design Patterns",
+      "author": "Erich Gamma",
+      "year": 1994,
+      "on_loan": false
+    },
+    {
+      "isbn": "9781617291999",
+      "title": "Python Workout",
+      "author": "Reuven M. Lerner",
+      "year": 2020,
+      "on_loan": false
+    },
+    {
+      "isbn": "9781491950296",
+      "title": "Programming Python",
+      "author": "Mark Lutz",
+      "year": 2019,
+      "on_loan": false
+    },
+    {
+      "isbn": "9780321356680",
+      "title": "Effective Java, Second Edition",
+      "author": "Joshua Bloch",
+      "year": 2008,
+      "on_loan": false
+    }
+  ],
+  "members": [
+    {
+      "member_id": "M0001",
+      "name": "Aisha Khan",
+      "email": "aisha.khan@example.com",
+      "active": true
+    },
+    {
+      "member_id": "M0002",
+      "name": "Ben Okafor",
+      "email": "ben.okafor@example.com",
+      "active": true
+    },
+    {
+      "member_id": "M0003",
+      "name": "Chloe Martin",
+      "email": "chloe.martin@example.com",
+      "active": true
+    },
+    {
+      "member_id": "M0004",
+      "name": "Dev Patel",
+      "email": "dev.patel@example.com",
+      "active": false
+    }
+  ],
+  "loans": [
+    {
+      "loan_id": "L0001",
+      "isbn": "9780132350884",
+      "member_id": "M0001",
+      "issued": "2025-09-01",
+      "due": "2025-09-15",
+      "returned": "2025-09-12"
+    },
+    {
+      "loan_id": "L0002",
+      "isbn": "9780262033848",
+      "member_id": "M0002",
+      "issued": "2025-09-05",
+      "due": "2025-09-19",
+      "returned": "2025-09-22"
+    },
+    {
+      "loan_id": "L0003",
+      "isbn": "9780132350884",
+      "member_id": "M0003",
+      "issued": "2025-10-02",
+      "due": "2025-10-16",
+      "returned": "2025-10-14"
+    },
+    {
+      "loan_id": "L0004",
+      "isbn": "9780596007126",
+      "member_id": "M0001",
+      "issued": "2025-10-20",
+      "due": "2025-11-03",
+      "returned": "2025-11-05"
+    },
+    {
+      "loan_id": "L0005",
+      "isbn": "9780132350884",
+      "member_id": "M0002",
+      "issued": "2025-11-10",
+      "due": "2025-11-24",
+      "returned": "2025-11-20"
+    }
+  ]
+}
